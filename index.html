@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html class="uk-notouch" lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Teamspeak 3 WebApp</title>
+	<meta content="Martin Kammersberger, not affiliated with Teamspeak Software GmbH" name="author">
+	<meta content="TeamSpeak is software for quality voice communication via the Internet" name="description">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+
+	<link href="//cdnjs.cloudflare.com/ajax/libs/uikit/2.21.0/css/uikit.almost-flat.min.css" rel="stylesheet">
+	<link href="//cdnjs.cloudflare.com/ajax/libs/uikit/2.21.0/css/components/slideshow.almost-flat.min.css" rel="stylesheet">
+	<link href="//cdnjs.cloudflare.com/ajax/libs/uikit/2.21.0/css/components/slidenav.almost-flat.min.css" rel="stylesheet">
+	<link href="//cdnjs.cloudflare.com/ajax/libs/uikit/2.21.0/css/components/dotnav.almost-flat.min.css" rel="stylesheet">
+	<link href="/resources/style/teamspeak.css" rel="stylesheet">
+	<link href="/resources/style/core.css" rel="stylesheet">
+</head>
+<body>
+	<header class="uk-clearfix" id="ts-header">
+		<div class="uk-container-center">
+			<a class="uk-navbar-brand uk-visible-large ts-logo-left-top" id="ts-control-hover" href="/">
+				<img alt="TeamSpeak" id="ts-logo" src="/resources/images/teamspeak_small.png">
+			</a>
+			<nav class="uk-hidden-small" id="ts-menu">
+				<ul class="uk-navbar-nav">
+					<li class="uk-parent" data-uk-dropdown="">
+						<a href="#"><span>Connection</span></a>
+						<div class="uk-dropdown uk-dropdown-navbar">
+							<ul class="uk-nav uk-nav-navbar">
+								<li>
+									<a href="#"><span>Placeholder</span></a>
+								</li>
+								<li>
+									<a href="#"><span>Placeholder</span></a>
+								</li>
+						</div>
+					</li>
+					<li class="uk-parent" data-uk-dropdown="">
+						<a href="#"><span>Bookmarks</span></a>
+						<div class="uk-dropdown uk-dropdown-navbar">
+							<ul class="uk-nav uk-nav-navbar">
+								<li>
+									<a href="#"><span>Placeholder</span></a>
+								</li>
+								<li>
+									<a href="#"><span>Placeholder</span></a>
+								</li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</nav><a class="uk-navbar-toggle uk-navbar-flip uk-visible-small" data-uk-offcanvas="" href="#offcanvas"></a>
+		</div>
+	</header>
+
+	<div class="inactive-app"></div>
+
+	<div id="ts-control-drop">
+		<div id="ts-control-main">
+			<section>
+				<div class="uk-grid" style="margin-left: 0px;">
+					<div class="uk-width-medium-1-1 ts-control-main-item-list" id="ts-personal">
+						<img alt="TeamSpeak" id="ts-logo-large" src="/resources/images/teamspeak_webapp.png" style="width: 200px;">
+					</div>
+				</div>
+			</section>
+
+			<section style="margin-top: 20px;">
+				<div class="ts-control-main-item ts-control-main-item-first uk-grid">
+					<div class="uk-width-medium-1-1 ts-control-main-item-list" id="ts-personal">
+						Connection&nbsp;&nbsp;&nbsp;<i class="fa fa-angle-right"></i>
+					</div>
+				</div>
+				<div class="ts-control-main-item uk-grid">
+					<div class="uk-width-medium-1-1 ts-control-main-item-list" id="ts-personal">
+						Bookmarks&nbsp;&nbsp;&nbsp;<i class="fa fa-angle-right"></i>
+					</div>
+				</div>
+				<div class="ts-control-main-item uk-grid">
+					<div class="uk-width-medium-1-1 ts-control-main-item-list" id="ts-personal">
+						Self&nbsp;&nbsp;&nbsp;<i class="fa fa-angle-right"></i>
+					</div>
+				</div>
+				<div class="ts-control-main-item uk-grid">
+					<div class="uk-width-medium-1-1 ts-control-main-item-list" id="ts-personal">
+						Permissions&nbsp;&nbsp;&nbsp;<i class="fa fa-angle-right"></i>
+					</div>
+				</div>
+				<div class="ts-control-main-item uk-grid">
+					<div class="uk-width-medium-1-1 ts-control-main-item-list" id="ts-personal">
+						Tools&nbsp;&nbsp;&nbsp;<i class="fa fa-angle-right"></i>
+					</div>
+				</div>
+				<div class="ts-control-main-item uk-grid">
+					<div class="uk-width-medium-1-1 ts-control-main-item-list" id="ts-personal">
+						Settings&nbsp;&nbsp;&nbsp;<i class="fa fa-angle-right"></i>
+					</div>
+				</div>
+				<div class="ts-control-main-item-last ts-control-main-item uk-grid">
+					<div class="uk-width-medium-1-1 ts-control-main-item-list" id="ts-personal">
+						Help&nbsp;&nbsp;&nbsp;<i class="fa fa-angle-right"></i>
+					</div>
+				</div>
+			</section>
+		</div>
+	</div>
+
+	<div id="ts-page">
+		Experimental Teamspeak 3 Web client with WEBRTC integration.
+		<section>
+			<div class="uk-grid">
+				<div class="uk-width-medium-1-2" id="ts-personal">
+					<div class="uk-panel uk-panel-space"></div>
+				</div>
+			</div>
+		</section>
+	</div>
+	<footer id="ts-footer">
+		<div class="uk-container uk-container-center">
+			<div class="uk-text-center uk-text-small" id="ts-copyright">
+				&copy; Martin Kammersberger. Not affiliated with TeamSpeak Systems GmbH. All rights reserved.<br>
+				All trademarks referenced herein are the properties of their respective owners.
+			</div>
+		</div>
+	</footer>
+	<div class="uk-offcanvas" id="offcanvas">
+		<div class="uk-offcanvas-bar uk-offcanvas-bar-flip" id="ts-offcanvas">
+			<ul class="uk-nav uk-nav-offcanvas">
+				<li class="uk-parent">
+					<a href="#"><span>Connection</span></a>
+					<ul class="uk-nav-sub">
+					</ul>
+				</li>
+				<li class="uk-parent" data-uk-dropdown="">
+					<a href="#"><span>Bookmarks</span></a>
+					<ul class="uk-nav-sub">
+					</ul>
+				</li>
+				<li class="uk-parent" data-uk-dropdown="">
+					<a href="#"><span>Self</span></a>
+					<ul class="uk-nav-sub">
+					</ul>
+				</li>
+				<li class="uk-parent" data-uk-dropdown="">
+					<a href="#"><span>Permissions</span></a>
+					<ul class="uk-nav-sub">
+					</ul>
+				</li>
+				<li class="uk-parent" data-uk-dropdown="">
+					<a href="#"><span>Tools</span></a>
+					<ul class="uk-nav-sub">
+					</ul>
+				</li>
+				<li class="uk-parent" data-uk-dropdown="">
+					<a href="#"><span>Settings</span></a>
+					<ul class="uk-nav-sub">
+					</ul>
+				</li>
+				<li class="uk-parent" data-uk-dropdown="">
+					<a href="#"><span>Help</span></a>
+					<ul class="uk-nav-sub">
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> 
+	<script src="//cdnjs.cloudflare.com/ajax/libs/uikit/2.21.0/js/uikit.min.js"></script> 
+	<script src="//cdnjs.cloudflare.com/ajax/libs/uikit/2.21.0/js/components/slideshow.min.js"></script> 
+	<script src="//cdnjs.cloudflare.com/ajax/libs/uikit/2.21.0/js/components/slideshow-fx.min.js"></script> 
+	<script src="/resources/scripts/overlay.js"></script>
+</body>
+</html>

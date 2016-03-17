@@ -1,0 +1,278 @@
+/*
+ * Icon Font: teamspeak
+ */
+@import url('teamspeakapp.css');
+
+@font-face {
+  font-family: "teamspeak";
+  src: url("../fonts/teamspeak.eot");
+  src: url("../fonts/teamspeak.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/teamspeak.woff") format("woff"),
+       url("../fonts/teamspeak.ttf") format("truetype"),
+       url("../fonts/teamspeak.svg#teamspeak") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "teamspeak";
+    src: url("../fonts/teamspeak.svg#teamspeak") format("svg");
+  }
+}
+
+[data-icon]:before { content: attr(data-icon); }
+
+[data-icon]:before,
+.tsicon-3d_sound:before,
+.tsicon-3d_sound_user:before,
+.tsicon-about:before,
+.tsicon-activate_microphone:before,
+.tsicon-add:before,
+.tsicon-add_folder:before,
+.tsicon-apply:before,
+.tsicon-away:before,
+.tsicon-ban_client:before,
+.tsicon-bookmark_add:before,
+.tsicon-bookmark_add_folder:before,
+.tsicon-bookmark_duplicate:before,
+.tsicon-bookmark_manager:before,
+.tsicon-bookmark_remove:before,
+.tsicon-capture:before,
+.tsicon-change_nickname:before,
+.tsicon-changelog:before,
+.tsicon-channel_chat:before,
+.tsicon-channel_collapse_all:before,
+.tsicon-channel_commander:before,
+.tsicon-channel_create:before,
+.tsicon-channel_create_sub:before,
+.tsicon-channel_default:before,
+.tsicon-channel_delete:before,
+.tsicon-channel_expand_all:before,
+.tsicon-channel_green:before,
+.tsicon-channel_green_subscribed:before,
+.tsicon-channel_groups:before,
+.tsicon-channel_private:before,
+.tsicon-channel_switch:before,
+.tsicon-check_update:before,
+.tsicon-clear:before,
+.tsicon-client_show:before,
+.tsicon-close_button:before,
+.tsicon-complaint_list:before,
+.tsicon-contact:before,
+.tsicon-copy:before,
+.tsicon-copy_url:before,
+.tsicon-default:before,
+.tsicon-default_for_all_bookmarks:before,
+.tsicon-down:before,
+.tsicon-download:before,
+.tsicon-edit:before,
+.tsicon-emoticon:before,
+.tsicon-favorite:before,
+.tsicon-file_home:before,
+.tsicon-file_refresh:before,
+.tsicon-filetransfer:before,
+.tsicon-find:before,
+.tsicon-folder:before,
+.tsicon-folder_up:before,
+.tsicon-group_100:before,
+.tsicon-group_200:before,
+.tsicon-group_300:before,
+.tsicon-group_500:before,
+.tsicon-group_600:before,
+.tsicon-hoster_button:before,
+.tsicon-iconsview:before,
+.tsicon-iconviewer:before,
+.tsicon-identity_manager:before,
+.tsicon-info:before,
+.tsicon-input_muted:before,
+.tsicon-invite_buddy:before,
+.tsicon-listview:before,
+.tsicon-move_client_to_own_channel:before,
+.tsicon-music:before,
+.tsicon-notifications:before,
+.tsicon-offline_messages:before,
+.tsicon-output_muted:before,
+.tsicon-permission_client:before,
+.tsicon-permission_server_groups:before,
+.tsicon-phoneticsnickname:before,
+.tsicon-ping_1:before,
+.tsicon-ping_2:before,
+.tsicon-ping_3:before,
+.tsicon-ping_4:before,
+.tsicon-play:before,
+.tsicon-player_off:before,
+.tsicon-plugins:before,
+.tsicon-poke:before,
+.tsicon-present:before,
+.tsicon-recording_start:before,
+.tsicon-recording_stop:before,
+.tsicon-refresh:before,
+.tsicon-register:before,
+.tsicon-security:before,
+.tsicon-select_all:before,
+.tsicon-server_green:before,
+.tsicon-server_log:before,
+.tsicon-server_query:before,
+.tsicon-settings:before,
+.tsicon-setup_wizard:before,
+.tsicon-sort_by_name:before,
+.tsicon-switch_advanced:before,
+.tsicon-switch_standard:before,
+.tsicon-tab_close_button:before,
+.tsicon-talk_power_grant:before,
+.tsicon-talk_power_request_cancel:before,
+.tsicon-talk_power_revoke_all_grant_next:before,
+.tsicon-temp_server_password:before,
+.tsicon-temp_server_password_add:before,
+.tsicon-textformat:before,
+.tsicon-textformat_bold:before,
+.tsicon-textformat_foreground:before,
+.tsicon-textformat_italic:before,
+.tsicon-textformat_underline:before,
+.tsicon-toggle_server_query_clients:before,
+.tsicon-token:before,
+.tsicon-token_use:before,
+.tsicon-ts_sync:before,
+.tsicon-up:before,
+.tsicon-upload_avatar:before,
+.tsicon-urlcatcher:before,
+.tsicon-virtualserver_edit:before,
+.tsicon-volume:before,
+.tsicon-warning:before,
+.tsicon-weblist:before,
+.tsicon-whisper:before,
+.tsicon-whisperlists:before {
+  display: inline-block;
+  font-family: "teamspeak";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.tsicon-3d_sound:before { content: "\f100"; }
+.tsicon-3d_sound_user:before { content: "\f17c"; }
+.tsicon-about:before { content: "\f103"; }
+.tsicon-activate_microphone:before { content: "\f105"; }
+.tsicon-add:before { content: "\f17d"; }
+.tsicon-add_folder:before { content: "\f104"; }
+.tsicon-apply:before { content: "\f10b"; }
+.tsicon-away:before { content: "\f10a"; }
+.tsicon-ban_client:before { content: "\f109"; }
+.tsicon-bookmark_add:before { content: "\f108"; }
+.tsicon-bookmark_add_folder:before { content: "\f107"; }
+.tsicon-bookmark_duplicate:before { content: "\f110"; }
+.tsicon-bookmark_manager:before { content: "\f10d"; }
+.tsicon-bookmark_remove:before { content: "\f17b"; }
+.tsicon-capture:before { content: "\f10e"; }
+.tsicon-change_nickname:before { content: "\f10c"; }
+.tsicon-changelog:before { content: "\f10f"; }
+.tsicon-channel_chat:before { content: "\f111"; }
+.tsicon-channel_collapse_all:before { content: "\f17e"; }
+.tsicon-channel_commander:before { content: "\f114"; }
+.tsicon-channel_create:before { content: "\f112"; }
+.tsicon-channel_create_sub:before { content: "\f113"; }
+.tsicon-channel_default:before { content: "\f115"; }
+.tsicon-channel_delete:before { content: "\f17a"; }
+.tsicon-channel_expand_all:before { content: "\f17f"; }
+.tsicon-channel_green:before { content: "\f118"; }
+.tsicon-channel_green_subscribed:before { content: "\f116"; }
+.tsicon-channel_groups:before { content: "\f117"; }
+.tsicon-channel_private:before { content: "\f180"; }
+.tsicon-channel_switch:before { content: "\f119"; }
+.tsicon-check_update:before { content: "\f11a"; }
+.tsicon-clear:before { content: "\f11f"; }
+.tsicon-client_show:before { content: "\f11b"; }
+.tsicon-close_button:before { content: "\f11e"; }
+.tsicon-complaint_list:before { content: "\f181"; }
+.tsicon-contact:before { content: "\f11c"; }
+.tsicon-copy:before { content: "\f122"; }
+.tsicon-copy_url:before { content: "\f182"; }
+.tsicon-default:before { content: "\f11d"; }
+.tsicon-default_for_all_bookmarks:before { content: "\f120"; }
+.tsicon-down:before { content: "\f131"; }
+.tsicon-download:before { content: "\f121"; }
+.tsicon-edit:before { content: "\f176"; }
+.tsicon-emoticon:before { content: "\f177"; }
+.tsicon-favorite:before { content: "\f130"; }
+.tsicon-file_home:before { content: "\f123"; }
+.tsicon-file_refresh:before { content: "\f124"; }
+.tsicon-filetransfer:before { content: "\f126"; }
+.tsicon-find:before { content: "\f127"; }
+.tsicon-folder:before { content: "\f132"; }
+.tsicon-folder_up:before { content: "\f125"; }
+.tsicon-group_100:before { content: "\f128"; }
+.tsicon-group_200:before { content: "\f129"; }
+.tsicon-group_300:before { content: "\f12a"; }
+.tsicon-group_500:before { content: "\f12b"; }
+.tsicon-group_600:before { content: "\f12c"; }
+.tsicon-hoster_button:before { content: "\f179"; }
+.tsicon-iconsview:before { content: "\f134"; }
+.tsicon-iconviewer:before { content: "\f12d"; }
+.tsicon-identity_manager:before { content: "\f12e"; }
+.tsicon-info:before { content: "\f175"; }
+.tsicon-input_muted:before { content: "\f135"; }
+.tsicon-invite_buddy:before { content: "\f136"; }
+.tsicon-listview:before { content: "\f138"; }
+.tsicon-move_client_to_own_channel:before { content: "\f137"; }
+.tsicon-music:before { content: "\f139"; }
+.tsicon-notifications:before { content: "\f178"; }
+.tsicon-offline_messages:before { content: "\f145"; }
+.tsicon-output_muted:before { content: "\f144"; }
+.tsicon-permission_client:before { content: "\f13b"; }
+.tsicon-permission_server_groups:before { content: "\f13d"; }
+.tsicon-phoneticsnickname:before { content: "\f13e"; }
+.tsicon-ping_1:before { content: "\f140"; }
+.tsicon-ping_2:before { content: "\f141"; }
+.tsicon-ping_3:before { content: "\f142"; }
+.tsicon-ping_4:before { content: "\f143"; }
+.tsicon-play:before { content: "\f146"; }
+.tsicon-player_off:before { content: "\f147"; }
+.tsicon-plugins:before { content: "\f148"; }
+.tsicon-poke:before { content: "\f149"; }
+.tsicon-present:before { content: "\f174"; }
+.tsicon-recording_start:before { content: "\f14a"; }
+.tsicon-recording_stop:before { content: "\f14b"; }
+.tsicon-refresh:before { content: "\f14c"; }
+.tsicon-register:before { content: "\f14d"; }
+.tsicon-security:before { content: "\f14e"; }
+.tsicon-select_all:before { content: "\f14f"; }
+.tsicon-server_green:before { content: "\f151"; }
+.tsicon-server_log:before { content: "\f159"; }
+.tsicon-server_query:before { content: "\f152"; }
+.tsicon-settings:before { content: "\f158"; }
+.tsicon-setup_wizard:before { content: "\f154"; }
+.tsicon-sort_by_name:before { content: "\f153"; }
+.tsicon-switch_advanced:before { content: "\f157"; }
+.tsicon-switch_standard:before { content: "\f156"; }
+.tsicon-tab_close_button:before { content: "\f155"; }
+.tsicon-talk_power_grant:before { content: "\f15a"; }
+.tsicon-talk_power_request_cancel:before { content: "\f15d"; }
+.tsicon-talk_power_revoke_all_grant_next:before { content: "\f15f"; }
+.tsicon-temp_server_password:before { content: "\f160"; }
+.tsicon-temp_server_password_add:before { content: "\f161"; }
+.tsicon-textformat:before { content: "\f162"; }
+.tsicon-textformat_bold:before { content: "\f163"; }
+.tsicon-textformat_foreground:before { content: "\f164"; }
+.tsicon-textformat_italic:before { content: "\f165"; }
+.tsicon-textformat_underline:before { content: "\f166"; }
+.tsicon-toggle_server_query_clients:before { content: "\f167"; }
+.tsicon-token:before { content: "\f168"; }
+.tsicon-token_use:before { content: "\f169"; }
+.tsicon-ts_sync:before { content: "\f16a"; }
+.tsicon-up:before { content: "\f16b"; }
+.tsicon-upload_avatar:before { content: "\f16e"; }
+.tsicon-urlcatcher:before { content: "\f16f"; }
+.tsicon-virtualserver_edit:before { content: "\f170"; }
+.tsicon-volume:before { content: "\f16c"; }
+.tsicon-warning:before { content: "\f173"; }
+.tsicon-weblist:before { content: "\f16d"; }
+.tsicon-whisper:before { content: "\f172"; }
+.tsicon-whisperlists:before { content: "\f171"; }
